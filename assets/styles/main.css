@@ -15,7 +15,7 @@
   /* secondary colors */
   --veryDarkBlue: hsl(217, 54%, 11%); /*(main BG)*/
   --DarkBlue: hsl(216, 50%, 16%); /*(card BG)*/
-  --veryDarkBlue: hsl(215, 32%, 27%); /*(line)*/
+  --veryDarkLine: hsl(215, 32%, 27%); /*(line)*/
   --white: hsl(0, 0%, 100%);
   /* Font Family  */
   --outfit: 'Outfit', sans-serif;
@@ -28,10 +28,14 @@ body {
 }
 .container {
   display: flex;
-  background-color: var(--DarkBlue);
+  background-color: var(--veryDarkBlue);
   width: 100%;
+  justify-content: center;
+  align-items: center;
 }
 
 .main {
-  background-color: var(--veryDarkBlue);
+  background-color: var(--veryDarkLine);
+  height: 70%;
+  border-radius: 10px;
 }
