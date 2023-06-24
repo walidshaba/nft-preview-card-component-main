@@ -22,38 +22,16 @@
 }
 
 body {
-}
-
-.container {
   display: flex;
   height: 100vh;
   width: 100%;
-  align-items: center;
-  justify-content: center;
+}
+.container {
+  display: flex;
   background-color: var(--DarkBlue);
+  width: 100%;
 }
 
 .main {
-  display: flex;
-  flex-direction: column;
-  height: 550px;
-  justify-content: space-evenly;
-  width: 350px;
   background-color: var(--veryDarkBlue);
-  align-items: center;
-  border-radius: 10px;
-}
-
-.image {
-  width: 90%;
-  align-content: center;
-  overflow: hidden;
-  border-radius: 10px;
-}
-
-.image img {
-  max-width: 100%;
-}
-
-.otherHalf {
 }
