@@ -40,16 +40,5 @@ body {
   border-radius: 10px;
   color: var(--white);
   justify-content: space-around;
-}
-
-.main .image {
-  height: 50%;
-  width: 90%;
-}
-
-.image .img {
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  background: url('/assets/images/image-equilibrium.jpg');
+  width: 400px;
 }
