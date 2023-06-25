@@ -58,8 +58,23 @@ div.image {
   border-radius: 15px;
   position: relative;
   bottom: 20px;
+  transition: all ease-in-out 0.35s;
 }
 
+.eyeCon {
+  position: absolute;
+  opacity: 0;
+  width: 100%;
+  justify-self: center;
+  left: 123px;
+}
+.image:hover .eyeCon {
+  opacity: 1;
+  transition: all ease-in-out 0.35s;
+}
+.image:hover img {
+  background-color: var(--cyan);
+}
 .image img {
   width: 290px;
   /* height: 100%; */
@@ -97,10 +112,11 @@ div.image {
   color: var(--cyan);
   font-weight: 600;
   height: 20px;
-  width: 90px;
+  width: 100px;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  font-size: 16px;
 }
 
 .daysNCrypto .right {
@@ -124,10 +140,17 @@ div.image {
 .aftHr .usrimg {
   width: 30px;
   margin-right: 15px;
+  border: 1px;
+  border-color: var(--white);
+  overflow: hidden;
 }
 
 .usrimg img {
   max-width: 100%;
   border-radius: 100%;
   border-color: var(--white);
+}
+
+.aftHr p span {
+  color: var(--softBlue);
 }
