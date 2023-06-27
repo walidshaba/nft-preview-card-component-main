@@ -29,8 +29,8 @@ A frontend Mentor project i built with HTML and CSS. It is a responsive NFT Card
 ### Screenshot
 
 ![On Desktop ](/Site%20preview/Desktop.png)
-![Active State](/Site%20preview/Desktop.png)
-![On Mobile ](/Site%20preview/Desktop.png)
+![Active State](/Site%20preview/Active.png)
+![On Mobile ](/Site%20preview/Mobile.png)
 
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
